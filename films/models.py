@@ -11,7 +11,7 @@ class Genre(models.Model):
 
 class Film(models.Model):
     title = models.CharField(max_length=200)
-    length = models.PositiveIntegerField(blank=True, null=True)
+    minutes = models.PositiveIntegerField(blank=True, null=True)
     year = models.PositiveIntegerField(blank=True, null=True)
     score = models.FloatField(blank=True, null=True, validators=[MinValueValidator(0), MaxValueValidator(10)])
     genre = models.ForeignKey(Genre, blank=True, null=True, on_delete=models.CASCADE)
