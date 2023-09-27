@@ -16,7 +16,7 @@ def run():
             genre, _ = Genre.objects.get_or_create(name=row[-1])
 
             film = Film(title=row[0],
-                        length=row[1],
+                        minutes=row[1],
                         year=row[2],
                         genre=genre)
             film.save()
