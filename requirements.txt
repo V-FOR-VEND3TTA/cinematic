@@ -5,3 +5,11 @@ grep==0.3.2
 pytz==2023.3.post1
 sqlparse==0.4.4
 typing_extensions==4.7.1
+asgiref==3.7.2
+Django==3.2.21
+django-extensions==3.2.3
+grep==0.3.2
+Pillow==9.5.0
+pytz==2023.3.post1
+sqlparse==0.4.4
+typing_extensions==4.7.1
